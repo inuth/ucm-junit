@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.196508">
+<testcase classname="Is it Friday yet" name="It is not Friday" time="0.141354">
+<system-out><![CDATA[Given today is Monday.......................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a NO.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="It is not Friday 2" time="0.005534">
+<system-out><![CDATA[Given today is Mardi........................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a NO.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="It is not Friday 3" time="0.007524">
+<system-out><![CDATA[Given today is Mercredi.....................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a NO.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="It is not Friday 4" time="0.012591">
+<system-out><![CDATA[Given today is Jeudi........................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a NO.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="It is not Friday 5" time="0.008619">
+<system-out><![CDATA[Given today is Samedi.......................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a NO.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="It is not Friday 6" time="0.006972">
+<system-out><![CDATA[Given today is Dimanche.....................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a NO.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet" name="It is Friday" time="0.013914">
+<system-out><![CDATA[Given today is Friday.......................................................passed
+When I ask if it is Friday yet..............................................passed
+Then I get a YES............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

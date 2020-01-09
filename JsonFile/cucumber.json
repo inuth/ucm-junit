@@ -1,0 +1,509 @@
+[
+  {
+    "line": 21,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-10T10:59:50.037Z",
+        "line": 34,
+        "name": "It is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-not-friday;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1810501,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "today is Monday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Monday",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 529000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2925500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get a NO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@slow"
+          },
+          {
+            "name": "@removed"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T10:59:50.185Z",
+        "line": 35,
+        "name": "It is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-not-friday;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 548300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "today is Mardi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mardi",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 382600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get a NO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@slow"
+          },
+          {
+            "name": "@removed"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T10:59:50.192Z",
+        "line": 36,
+        "name": "It is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-not-friday;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 532300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "today is Mercredi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mercredi",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 461500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 695200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get a NO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@slow"
+          },
+          {
+            "name": "@removed"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T10:59:50.200Z",
+        "line": 37,
+        "name": "It is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-not-friday;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 855499,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "today is Jeudi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeudi",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 657600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 695700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get a NO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@slow"
+          },
+          {
+            "name": "@removed"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T10:59:50.214Z",
+        "line": 38,
+        "name": "It is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-not-friday;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 970300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "today is Samedi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samedi",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 708500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 464000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get a NO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@slow"
+          },
+          {
+            "name": "@removed"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T10:59:50.223Z",
+        "line": 39,
+        "name": "It is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-not-friday;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 522600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "today is Dimanche",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dimanche",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496801,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560301,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get a NO",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@slow"
+          },
+          {
+            "name": "@removed"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T10:59:50.231Z",
+        "line": 42,
+        "name": "It is Friday",
+        "description": "",
+        "id": "is-it-friday-yet;it-is-friday",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 672500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "today is Friday",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Friday",
+                  "offset": 9
+                }
+              ],
+              "location": "IsItFridayYetSteps.todayIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 636099,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I ask if it is Friday yet",
+            "match": {
+              "location": "IsItFridayYetSteps.IAskIfItIsFridayYet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470299,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I get a YES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "YES",
+                  "offset": 8
+                }
+              ],
+              "location": "IsItFridayYetSteps.IGetA(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@friday"
+          },
+          {
+            "name": "@fast"
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet",
+    "description": "  In order to increase my productivity\n  As a user\n  I want to know if it is Friday yet",
+    "id": "is-it-friday-yet",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/cucumber/features/is_it_friday_yet.feature",
+    "tags": [
+      {
+        "name": "@friday",
+        "type": "Tag",
+        "location": {
+          "line": 20,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
